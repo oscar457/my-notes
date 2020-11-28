@@ -1,0 +1,32 @@
+h1{
+  width: 100%;
+  text-align: center;
+}
+
+table{
+  width:33%;
+  height: 300px;
+  margin: auto;
+}
+
+.first{
+  width: 33%;
+  border: 2px solid black;
+  border-left: none;
+  border-top: none;
+}
+
+.second{
+  width: 33%;
+  border-bottom: 2px solid black;
+}
+
+.third{
+  border: 2px solid black;
+  border-right: none;
+  border-top: none;
+}
+
+tr:nth-of-type(3) td{
+  border-bottom: none;
+}
